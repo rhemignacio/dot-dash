@@ -25,7 +25,7 @@ socket.on('playerUpdate', (players) => {
   scoreList.innerHTML = '';
   for (const id in players) {
     const li = document.createElement('li');
-    li.textContent = \`\${id === socket.id ? 'You' : id.slice(0, 4)}: \${players[id].score}\`;
+    li.textContent = `${id === socket.id ? 'You' : id.slice(0, 4)}: ${players[id].score}`;
     scoreList.appendChild(li);
   }
 });
