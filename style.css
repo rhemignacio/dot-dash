@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+#dot {
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 50%;
+  margin: 40px auto;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
